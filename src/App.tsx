@@ -399,8 +399,7 @@ export default function App() {
               cursor: "pointer", fontFamily: "'DM Sans', sans-serif",
             }}>
               <span>{a.icone}</span>
-              <span style={{ display: "none", "@media(minWidth:500px)": { display: "inline" } }}>A{a.id}</span>
-              <span style={{ fontSize: "10px", opacity: 0.7 }}>A{a.id}</span>
+              <span style={{ fontSize: "10px", opacity: 0.7 }}>{a.id}</span>
             </button>
           ))}
         </div>
